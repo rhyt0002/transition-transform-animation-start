@@ -35,3 +35,49 @@
 	background-color: #e89380;
 	/*purple*/
 }
+/* --------------------------------------------------Transition------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------Transition------------------------------------------------------------------- */
+
+
+.transition .b1{
+	transition: width 3s ease-in-out;
+}
+.transition .b1:hover{
+	width:400px;
+	height: 350px;
+}
+.transition .b2{
+	transition: width 1s, height .5s;
+	transition-delay: .5s;
+
+}
+.transition .b2:hover{
+	width: 250px;
+	height: 250px;
+}
+.transition .b3{
+	transition: transform 2s cubic-bezier(0.46, -0.82, 0.73, 1.44) .5s;
+}
+.transition .b3:hover{
+	transform: rotate(360deg);
+}
+.transition .b4{
+	transition: all 1s ease-in-out .4s;
+}
+.transition .b4:hover{
+	transform: rotate(270deg);
+	border-radius: 50%;
+	background-color: beige;
+
+}
+
+
+
+
+
+
+
+
+
