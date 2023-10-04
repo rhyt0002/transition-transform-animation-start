@@ -72,11 +72,30 @@
 	background-color: beige;
 
 }
+/* ---------------------------------------------------------------transform-------------------------------------------------------------- */
 
-
-
-
-
+/* ---------------------------------------------------------------transform-------------------------------------------------------------- */
+.transform .box{
+	transition: transform .5sec;
+}
+.transform .b1{
+	transform: rotate(60deg);
+}
+.transform .b1:hover{
+	transform: rotate(0deg);
+}
+.transform .b2:hover{
+	transform: translate(20px, 20px);
+}
+.transform .b3:hover{
+	transform: scale(1.5);
+}
+.transform .b4{
+	transform: skewX(16deg) translateX(30deg);
+}
+.transform .b4:hover{
+	transform: skewX(0deg);
+}
 
 
 
